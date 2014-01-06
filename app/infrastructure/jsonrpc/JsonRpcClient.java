@@ -27,9 +27,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeoutException;
 
-import org.codehaus.jackson.JsonNode;
-import org.codehaus.jackson.JsonProcessingException;
-import org.codehaus.jackson.map.ObjectMapper;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.RpcClient;

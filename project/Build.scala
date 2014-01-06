@@ -8,7 +8,7 @@ object ApplicationBuild extends Build {
   val appVersion      = "1.0-SNAPSHOT"
 
   val appDependencies = Seq(
-    "com.rabbitmq" % "amqp-client" % "2.8.1",
+    "com.rabbitmq" % "amqp-client" % "3.0.1",
     javaCore,
     javaJdbc,
     javaEbean
